@@ -8,16 +8,15 @@ const Modal = ({ isOpen, onClose, email }) => {
 
   return (
     <>
-      {/* Backdrop */}
       <div
         className="fixed inset-0 bg-[#4C5764CC] bg-opacity-50 z-40 transition-opacity"
         onClick={onClose}
       />
 
-      {/* Modal */}
+   
       <div className="fixed inset-y-0 right-0 z-50 w-full max-w-[752px]">
         <div className="h-full bg-white shadow-xl transform transition-transform">
-          {/* Header with close button on left */}
+          {/* Header*/}
           <div className="flex items-center justify-between p-6 border-b">
             <button
               onClick={onClose}

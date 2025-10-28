@@ -45,7 +45,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         </div>
 
 
-        {/* Navigation */}
+  
         <nav className="flex-1 px-4 py-4 space-y-1">
           {navigation.map((item) => (
             <a

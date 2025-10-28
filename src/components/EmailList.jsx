@@ -70,7 +70,7 @@ const EmailList = ({ onEmailClick }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-sm border border-gray-200">
-      {/* Email List Header */}
+
       <div className="flex items-center justify-between p-4 border-b border-gray-200">
         <div className="flex items-center space-x-4">
           <div className="flex items-center gap-5">
@@ -92,7 +92,7 @@ const EmailList = ({ onEmailClick }) => {
         </div>
       </div>
 
-      {/* Email Items */}
+  
       <div className="divide-y divide-gray-200">
         {emails.map((email) => (
           <EmailItem
