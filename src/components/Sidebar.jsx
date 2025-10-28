@@ -5,8 +5,8 @@ import { FaBoxArchive } from 'react-icons/fa6';
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const navigation = [
-    { name: 'Inbox', icon: <FaInbox />, count: 12, current: true },
-    { name: 'Archive', icon: <FaBoxArchive />, count: 5, current: false },
+    { name: 'Inbox', icon: <FaInbox />,  current: true },
+    { name: 'Archive', icon: <FaBoxArchive />,  current: false },
   ];
 
 

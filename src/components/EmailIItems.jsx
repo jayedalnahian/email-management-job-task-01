@@ -2,11 +2,10 @@
 import React from "react";
 
 const EmailItem = ({
+    handleSelect,
   email,
   isSelected,
   onSelect,
-  onStar,
-  onImportant,
   onMarkAsRead,
   onClick,
 }) => {
@@ -33,6 +32,7 @@ const EmailItem = ({
           type="checkbox"
           size={20}
           checked={isSelected}
+          onClick={()=>handleSelect(email)}
           onChange={onSelect}
           className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
         />
